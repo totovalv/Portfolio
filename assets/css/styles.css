@@ -150,6 +150,13 @@ a.btn-cta-secondary, .btn-cta-secondary {
   font-weight: 600;
   text-transform: uppercase;
 }
+a.btn-cta-secondary:focus{
+  background: #1f86b5;
+  border: 1px solid #1f86b5;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):active:focus, .btn-cta-secondary:hover, .btn-cta-secondary:not(:disabled):not(.disabled):active:focus {
   background: #3893bd;
@@ -478,30 +485,13 @@ a.dotted-link:hover {
 
 .skills .skillset .level-title {
   font-size: 16px;
+  width: 30rem;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
 }
 
-.skills .skillset .level-title .level-label {
-  color: #ccd1d6;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 
-.skills .skillset .level-bar {
-  height: 15px;
-  background: #e8e8e8;
-}
-
-.skills .skillset .level-bar-inner {
-  height: 15px;
-  background: #66cb8c;
-}
 
 .skills .svg-inline--fa {
   margin-right: 3px;
